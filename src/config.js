@@ -10,16 +10,18 @@ const layersOrder = [
 ];
   
 const format = {
-    width: 230,
-    height: 230
+    width: 1024,
+    height: 1024
 };
 
 const rarity = [
-    { key: "", val: "original" },
-    { key: "_r", val: "rare" },
-    { key: "_sr", val: "super rare" },
+    { key: "_c", val: "Common" },
+    { key: "_uc", val: "Uncommon" },
+    { key: "_r", val: "Super Rare" },
+    { key: "_sr", val: "Epic"},
+    {key: "_l", val: "Legendary"}
 ];
 
-const defaultEdition = 5;
+const defaultEdition = 5000;
 
 module.exports = { layersOrder, format, rarity, defaultEdition };
