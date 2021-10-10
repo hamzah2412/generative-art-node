@@ -17,8 +17,8 @@ const format = {
 const rarity = [
     { key: "_c", val: "Common" },
     { key: "_uc", val: "Uncommon" },
-    { key: "_r", val: "Super Rare" },
-    { key: "_sr", val: "Epic"},
+    { key: "_r", val: "Rare" },
+    { key: "_e", val: "Epic"},
     {key: "_l", val: "Legendary"}
 ];
 
